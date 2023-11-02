@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/aa211f5f40.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- LANDING PAGE -->
+    <div class="sun"></div>
+    <h1 class="heading">SOLSYSTEMET</h1>
+    <h2 class="subheading">SOLARIS</h2>
+
+    <main class="planets">
+      <!-- PLANETS -->
+      <div class="mercury"></div>
+      <div class="venus"></div>
+      <div class="earth"></div>
+      <div class="mars"></div>
+      <div class="jupiter"></div>
+      <div class="saturn__container">
+        <div class="saturn"></div>
+        <div class="saturn__ring"></div>
+      </div>
+      <div class="uranus"></div>
+      <div class="neptune"></div>
+    </main>
+
+    <!-- MODAL -->
+
+    <article class="modal hidden">
+      <div class="sun__one"></div>
+      <div class="sun__two"></div>
+      <div class="sun__three"></div>
+      <div class="stars">
+        <section class="planet__facts">
+          <h1 class="name"></h1>
+          <h2 class="name__latin"></h2>
+          <p class="about"></p>
+
+          <section class="sec__number__facts">
+            <h3 class="circumf__h">OMKRETS</h3>
+            <p class="circumf"></p>
+
+            <h3 class="distance__h">KM FRÅN SOLEN</h3>
+            <p class="distance"><span></span></p>
+
+            <h3 class="temp__day__h">MAX TEMPERATUR</h3>
+            <p class="temp__day"></p>
+
+            <h3 class="temp__night__h">MIN TEMPERATUR</h3>
+            <p class="temp__night"></p>
+          </section>
+
+          <h3 class="moons__h">MÅNAR</h3>
+          <ul class="moons"></ul>
+        </section>
+        <i class="fa-solid fa-x"></i>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
